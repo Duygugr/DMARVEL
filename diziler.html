@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diziler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@1&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- navbar -->
+     <div class="navbar">
+    <ul class="navbar-list">
+        <li><a href="index.html" class = "logo"> DMARVEL</a></li>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="diziler.html">Diziler</a></li>
+        <li><a href="filmler.html">Filmler</a></li>
+    </ul>
+</div>
+    <div class="marvel-foto">
+        <img src="img/kolaj.png" >
+        <h1>DİZİLER</h1>
+    </div>
+
+    <!-- most watched series -->
+    <div class="mostSeries-2">
+        <h3 >DİZİLER</h3 >
+            <div class="card">
+                <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg"  >
+                <h5>Loki</h5>
+                <h4>2S 12B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-loki','Loki')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/wandaVision.jpg" >
+                <h5>WandaVision</h5>
+                <h4>1S 9B | Dram</h4>
+                <button class="info" onclick="openModal('modal-wandaVision','WandaVision')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/The folcan and the winter soldier.jpg" >
+                <h5>The Falcon and the Winter Soldier</h5>
+                <h4>1S 6B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-theFalconandtheWinterSoldier', 'The Falcon and the Winter Soldier')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/moon knight.jpg" >
+                <h5>Moon Knight</h5>
+                <h4>1S 6B | Aksiyon</h4>  
+                <button class="info" onclick="openModal('modal-moonKnight', 'Moon Knight')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg"  >
+                <h5>Loki</h5>
+                <h4>2S 12B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-loki','Loki')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/wandaVision.jpg" >
+                <h5>WandaVision</h5>
+                <h4>1S 9B | Dram</h4>
+                <button class="info" onclick="openModal('modal-wandaVision','WandaVision')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/The folcan and the winter soldier.jpg" >
+                <h5>The Falcon and the Winter Soldier</h5>
+                <h4>1S 6B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-theFalconandtheWinterSoldier', 'The Falcon and the Winter Soldier')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/moon knight.jpg" >
+                <h5>Moon Knight</h5>
+                <h4>1S 6B | Aksiyon</h4>  
+                <button class="info" onclick="openModal('modal-moonKnight', 'Moon Knight')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg"  >
+                <h5>Loki</h5>
+                <h4>2S 12B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-loki','Loki')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/wandaVision.jpg" >
+                <h5>WandaVision</h5>
+                <h4>1S 9B | Dram</h4>
+                <button class="info" onclick="openModal('modal-wandaVision','WandaVision')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/The folcan and the winter soldier.jpg" >
+                <h5>The Falcon and the Winter Soldier</h5>
+                <h4>1S 6B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-theFalconandtheWinterSoldier', 'The Falcon and the Winter Soldier')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/moon knight.jpg" >
+                <h5>Moon Knight</h5>
+                <h4>1S 6B | Aksiyon</h4>  
+                <button class="info" onclick="openModal('modal-moonKnight', 'Moon Knight')">Bilgi</button>
+            </div>
+        </div>
+                
+                
+            <!-- modals -->
+            <div id="modal-loki" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-loki')">&times;</span>
+                    <h2>LOKİ</h2><br>
+                    <p>Loki, Marvel Sinematik Evreni’nin sevilen anti-kahramanı Loki’nin alternatif bir zaman çizelgesinde yaşadığı maceraları konu alır. “Avengers: Endgame” sonrası kaçan Loki, Zaman Varyans Kurumu (TVA) tarafından yakalanır ve çok daha büyük bir tehdidi durdurmak için onlarla birlikte çalışmak zorunda kalır. Dizi; zaman yolculuğu, gizem ve karakter gelişimiyle dikkat çekerken Marvel evrenine yeni bir yön verir.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 2S 12B | Aksiyon</p><br>
+                    <p id="imdb-loki"> </p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-wandaVision" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-wandaVision')">&times;</span>
+                    <h2>WandaVision</h2><br>
+                    <p>Wanda ve Vision, normal bir kasaba hayatı sürüyormuş gibi görünürler, ama her şey göründüğü kadar sıradan değildir. Dizi, Marvel evrenindeki karakterlerin geçmişini ve güçlerini eğlenceli ve sürprizli bir şekilde keşfetmelerini konu alır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 9B | Aksiyon , Dram</p><br>
+                    <p id="imdb-wandaVision"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/wandaVision.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-theFalconandtheWinterSoldier" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-theFalconandtheWinterSoldier')">&times;</span>
+                    <h2>The Falcon and the Winter Soldier</h2><br>
+                    <p>Sam Wilson (Falcon) ve Bucky Barnes (Winter Soldier), Captain America sonrası dünyada adaleti sağlamak için güçlerini birleştirir. Dizi, aksiyon dolu sahneleri ve karakterlerin geçmişleriyle yüzleşmelerini konu alır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 6B | Aksiyon</p><br>
+                    <p id="imdb-theFalconandtheWinterSoldier"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/The folcan and the winter soldier.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-moonKnight" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-moonKnight')">&times;</span>
+                    <h2>Moon Knight</h2><br>
+                    <p>Marc Spector, gizemli güçlere sahip Moon Knight’a dönüşerek suçla mücadele eder. Dizi, karakterin psikolojik çatışmalarını ve mistik olayları sürükleyici bir şekilde anlatır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 6B | Aksiyon</p><br>
+                    <p id="imdb-moonKnight"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/moon knight.jpg">
+                    </div>
+                </div>
+            </div>
+      
+
+            <!-- footer -->
+            <div class="footer">
+                <ul class = "footer-link">
+                    <li><a href="index.html">Ana sayfa</a></li>
+                    <li><a href="diziler.html">Diziler</a></li>
+                    <li><a href="filmler.html">Filmler </a></li>
+                </ul>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <p>© 2025 Marvel Fan Sitesi. Tüm hakları saklıdır. <br>Designed by Duygu </p>
+        </div>
+</div>
+        
+  <script src="app.js"></script>
+</body>
+</html>

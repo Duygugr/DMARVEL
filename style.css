@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container{
+    background-image:url(img/Untitled\ \(6\).png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 650px;   
+}
+
+.navbar .logo{
+    padding-right: 60px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.navbar-list{
+    display: flex;
+    padding-top: 40px;
+    font-weight:bold;
+    width: 100%;
+    gap: 120px;
+
+}
+
+.navbar-list  {
+    list-style-type: none;
+    padding-left: 100px;
+}
+
+.navbar-list  li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.spiderMan-text{
+    color: white;
+    position: relative;
+    top: 35%;
+    left: 7%;
+    line-height: 25px;
+    font-size: 19px;
+    max-width: 560px;
+  
+}
+
+.banner-btn{
+    padding: 4px; 
+    margin-top: 15px;
+    font-size: 13px;
+    background-color:#960606;
+    color: white;
+    font-weight: 900;
+    border: 1px solid rgba(255, 0, 0, 0.137);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px white;
+}
+
+.mostSeries{
+    margin-top: 600px;
+    color: white;
+    margin-left: 3%;   
+
+    
+}
+
+.mostMovies{
+    top: 90%;
+    color: white;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+
+.card{
+    padding-left: 70px;
+    display:inline-block;
+    position: relative;
+}
+
+ h3{
+    padding-left: 70px;
+}
+
+.card h5{
+    font-size: 15px;
+}
+
+.card h4{
+    color: gray;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.more{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    position: relative;
+    left: 80%;
+    display: flex;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px;
+    height: 40px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    background-color:#200101;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.664);
+}
+
+.info{
+    width: 120px;
+    height: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+}
+
+
+.card img{
+    width: 230px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: rgb(8, 8, 8);
+    height: 260px;
+    margin-left: 0px;
+    color: white;
+    font-size: 13px;
+    text-align: center; 
+    margin-top: 20%;
+ 
+}
+
+.footer .footer-link{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    top: 20%;
+    font-size: 15px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer .social-media{
+    display: flex;
+    justify-content:center;
+    padding:80px 0 0 20px;
+    gap: 20px;
+
+}
+
+.social-media i{
+    background-color: aliceblue;
+    padding: 10px;
+    color: black;
+    border-radius: 60px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer p{
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+
+    padding-top: 50px;
+}
+
+
+.mostSeries-2 {
+    color: white;
+    margin-top: 150px;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    row-gap: 70px;
+}
+
+.mostSeries-2 h3{
+    width: 100%;
+    font-size: 38px;
+    margin-bottom: -100px;
+}
+
+.mostMovies-2{
+    color: white;
+    margin-top: 150px;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    row-gap: 70px;
+}
+
+.mostMovies-2 h3{
+    width: 100%;
+    font-size: 38px;
+    margin-bottom: -100px;
+}
+
+.marvel-foto img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.2;
+    padding-top: 50px;
+    box-sizing: border-box;
+    
+}
+
+.marvel-foto h1 {
+    position: absolute;
+    color: rgb(238, 238, 238);
+    font-size: 45px;
+    bottom: 290px;
+    left: 530px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 20px;
+    padding: 17px;
+    font-family: "Bevan", serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  padding: 30px;
+  padding-top: 30px;
+  width: 100%; height: 100%;
+  backdrop-filter: blur(20px);
+
+}
+
+
+.modal-list{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(43, 43, 43);
+    box-shadow: 3px 2px 10px white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    position: relative;
+
+}
+
+
+.modal-left{
+    flex-direction: column;
+    display: flex;
+    margin-left: 15px;
+}
+
+.modal-list span{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.modal-img img{
+    width: 270px;
+    height: 390px;
+    margin:30px 0 0 60px;
+    border-radius: 20px;
+    
+}
+
+.modal-list p{
+    max-width: 400px;
+    line-height: 22px;
+    
+}
+
+@media(max-width:720px){
+    .navbar-list{
+        flex-wrap: nowrap;
+        gap: 20px;
+        padding-left: 30px;
+        font-size: 15px;
+        
+    }
+    
+    .container{
+     height: 420px;
+
+        
+    }
+    .spiderMan-text{
+        max-width: 250px;
+        font-size: 13px;
+        margin-top: -40px;
+        line-height: 20px;
+    }
+
+    .spiderMan-text button{
+        font-size: 8px;
+    }
+
+    .mostSeries .card{
+    top: 50%;
+    font-size: 12px;
+    right: 5%;
+       
+    }
+    button{
+        font-size: 11px;
+        right: 10px;
+    }
+    .card h4{
+        font-size: 12px;
+    }
+    .card h5{
+        font-size: 10px;
+    }
+    .card img{
+        height: 200px;
+        width: 170px;
+        
+    }
+
+    .footer{
+        width: 100%;
+    }
+   
+    .marvel-foto img{
+        height: 400px;
+       
+    }
+
+    .marvel-foto h1{
+        font-size: 35px;
+        left: 40%;
+       
+    }
+
+    .mostSeries-2{
+        right: 30px;
+    }
+
+    .mostMovies-2{
+        right: 30px;
+    }
+
+    .modal-list{
+        width: 450px;
+    }
+
+    .modal-img img{
+        height: 350px;
+        width: 200px;
+        padding-right: 15px;
+    }
+    .modal h2{
+        font-size: 15px;
+        max-height: 20px;
+        position: relative;
+        bottom: 4%;
+     
+    }
+    .modal p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 140px;
+        top: 20px;
+    }
+}
+
+@media(min-width:720px) and (max-width:991px){
+    .container{
+        height: 500px;
+    }
+    .spiderMan-text{
+        max-width: 330px;
+        font-size: 15px;
+    }
+}

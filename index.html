@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMARVEL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="navbar">
+    <ul class="navbar-list">
+        <li><a href="index.html" class = "logo"> DMARVEL</a></li>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="diziler.html">Diziler</a></li>
+        <li><a href="filmler.html">Filmler</a></li>
+    </ul>
+</div>
+        <div class="spiderMan-text">
+            <h5>Spider-Man, Marvel evreninde önemli bir yere sahip süper kahramanlardan biridir.
+            Peter Parker adlı genç bir öğrenciyken radyoaktif bir örümcek tarafından ısırılmasıyla olağanüstü güçler kazanır. Şehri suçlulardan korumak için kararlılıkla
+            mücadele ederken aynı zamanda sıradan bir yaşam sürmeye çalışır. 
+            </h5>
+            <button class="banner-btn" onclick="window.location.href='filmler.html'">Daha fazlasını görüntüle</button>
+        </div>
+        
+        
+    <!-- most watched series -->
+    <div class="mostSeries">
+        <h3>EN ÇOK İZLENEN DİZİLER</h3>
+            <div class="card">
+                <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg"  >
+                <h5>Loki</h5>
+                <h4>2S 12B | Aksiyon</h4>
+                <button class="info" onclick = "openModal('modal-loki','Loki')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/wandaVision.jpg" >
+                <h5>WandaVision</h5>
+                <h4>1S 9B | Dram</h4>
+                <button class="info" onclick="openModal('modal-wandaVision','WandaVision')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/The folcan and the winter soldier.jpg" >
+                <h5>The Falcon and the Winter Soldier</h5>
+                <h4>1S 6B | Aksiyon</h4>
+                <button class="info"onclick = "openModal('modal-theFalconandtheWinterSoldier', 'The Falcon and the Winter Soldier')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/moon knight.jpg" >
+                <h5>Moon Knight</h5>
+                <h4>1S 6B | Aksiyon</h4>  
+                <button class="info" onclick="openModal('modal-moonKnight', 'Moon Knight')">Bilgi</button>
+            </div>
+
+                <button type = "button" onclick = "window.location.href='diziler.html'"class = "more">Tüm Dizileri Gör</button>
+
+
+</div>
+
+
+            <!-- most watched movies -->
+            <div class="mostMovies">
+            <h3>EN ÇOK İZLENEN FİLMLER</h3>
+                
+            <div class="card">
+                <img src="img/p_avengersendgame_19751_e14a0104.jpeg" >
+                <h5>Avengers: Endgame</h5>
+                <h4>181dk | Aksiyon</h4>
+                <button class="info" onclick="openModal('modal-avengersEndgame','Avengers: Endgame')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/spider man no way home.jpg" >
+                <h5>Spider-Man: No Way Home</h5>
+                <h4>148dk | Aksiyon</h4>
+                <button class="info" onclick="openModal('modal-SpiderManNoWayHome','Spider-Man: No way Home')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Avengers.jpg" >
+                <h5>Avengers: Infinity War</h5>
+                <h4>149dk | Aksiyon</h4>
+                <button class="info" onclick="openModal('modal-AvengersInfinityWar','Avengers: Infinity War')">Bilgi</button>
+            </div>
+
+            <div class="card">
+                <img src="img/p_blackpanther_19754_4ac13f07.jpeg" >
+                <h5>Black Panther</h5>
+                <h4>134dk | Aksiyon</h4>
+                <button class="info" onclick="openModal('modal-blackPanther','Black Panther')">Bilgi</button>
+            </div>
+            <div>
+             <button type = "button" onclick = "window.location.href='filmler.html'" class="more">Tüm Filmleri Gör</button>
+            </div>
+    </div>
+
+            <!-- modals series -->
+            <div id="modal-loki" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-loki')">&times;</span>
+                    <h2>LOKİ</h2><br>
+                    <p>Loki, Marvel Sinematik Evreni’nin sevilen anti-kahramanı Loki’nin alternatif bir zaman çizelgesinde yaşadığı maceraları konu alır. “Avengers: Endgame” sonrası kaçan Loki, Zaman Varyans Kurumu (TVA) tarafından yakalanır ve çok daha büyük bir tehdidi durdurmak için onlarla birlikte çalışmak zorunda kalır. Dizi; zaman yolculuğu, gizem ve karakter gelişimiyle dikkat çekerken Marvel evrenine yeni bir yön verir.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 2S 12B | Aksiyon</p><br>
+                    <p id="imdb-loki"> </p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/81e1IWtwFQL._AC_UF1000,1000_QL80_.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-wandaVision" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-wandaVision')">&times;</span>
+                    <h2>WandaVision</h2><br>
+                    <p>Wanda ve Vision, normal bir kasaba hayatı sürüyormuş gibi görünürler, ama her şey göründüğü kadar sıradan değildir. Dizi, Marvel evrenindeki karakterlerin geçmişini ve güçlerini eğlenceli ve sürprizli bir şekilde keşfetmelerini konu alır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 9B | Aksiyon , Dram</p><br>
+                    <p id="imdb-wandaVision"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/wandaVision.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-theFalconandtheWinterSoldier" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-theFalconandtheWinterSoldier')">&times;</span>
+                    <h2>The Falcon and the Winter Soldier</h2><br>
+                    <p>Sam Wilson (Falcon) ve Bucky Barnes (Winter Soldier), Captain America sonrası dünyada adaleti sağlamak için güçlerini birleştirir. Dizi, aksiyon dolu sahneleri ve karakterlerin geçmişleriyle yüzleşmelerini konu alır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 6B | Aksiyon</p><br>
+                    <p id="imdb-theFalconandtheWinterSoldier"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/The folcan and the winter soldier.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-moonKnight" class="modal">
+                <div class="modal-list">
+                    <div class="modal-left">
+                    <span onclick="closeModal('modal-moonKnight')">&times;</span>
+                    <h2>Moon Knight</h2><br>
+                    <p>Marc Spector, gizemli güçlere sahip Moon Knight’a dönüşerek suçla mücadele eder. Dizi, karakterin psikolojik çatışmalarını ve mistik olayları sürükleyici bir şekilde anlatır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 1S 6B | Aksiyon</p><br>
+                    <p id="imdb-moonKnight"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/moon knight.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- modals movies-->
+             <div id="modal-avengersEndgame" class="modal">
+                <div class="modal-list">
+                     <div class="modal-left">
+                    <span onclick="closeModal('modal-avengersEndgame')">&times;</span>
+                    <h2>Avengers: Endgame</h2><br>
+                    <p>Thanos’un evrenin yarısını yok etmesinin ardından kalan kahramanlar, kaybettiklerini geri almak için son bir kez bir araya gelir. Zaman yolculuğu, fedakarlık ve dostluk temalarıyla Marvel evreninin en duygusal hikayelerinden biridir. Iron Man, Captain America ve Thor’un kaderleri bu filmde belirlenir ve 10 yıllık bir serüven destansı bir finalle taçlanır.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 181dk | Aksiyon</p><br>
+                    <p id="imdb-avengersEndgame"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/p_avengersendgame_19751_e14a0104.jpeg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal-SpiderManNoWayHome" class="modal">
+                <div class="modal-list">
+                     <div class="modal-left">
+                    <span onclick="closeModal('modal-SpiderManNoWayHome')">&times;</span>
+                    <h2>Spider-Man: No Way Home</h2><br>
+                    <p>Peter Parker’ın kimliğinin ortaya çıkması hayatını altüst eder. Doktor Strange’den yardım isterken çoklu evren kapıları açılır ve eski düşmanlar geri döner. Üç farklı Spider-Man’in bir araya geldiği bu film, nostaljiyle aksiyonu birleştirerek Marvel hayranlarını büyüler.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 148dk | Aksiyon</p><br>
+                    <p id="imdb-SpiderManNoWayHome"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/spider man no way home.jpg">
+                    </div>
+                </div>
+            </div>
+
+               <div id="modal-AvengersInfinityWar" class="modal">
+                <div class="modal-list">
+                     <div class="modal-left">
+                    <span onclick="closeModal('modal-AvengersInfinityWar')">&times;</span>
+                    <h2>Avengers Infinity War</h2><br>
+                    <p>Evrenin kaderi, Thanos’un sonsuzluk taşlarını ele geçirmesiyle tehlikeye girer. Tüm kahramanlar insanlığı kurtarmak için birleşir, ancak trajik bir sonla karşılaşırlar. Yoğun aksiyon, duygusal anlar ve unutulmaz karakterlerle Infinity War, Marvel evreninin en güçlü yapımlarından biridir.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 149dk | Aksiyon</p><br>
+                    <p id="imdb-AvengersInfinityWar"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/Avengers.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div id="modal-blackPanther" class="modal">
+                <div class="modal-list">
+                     <div class="modal-left">
+                    <span onclick="closeModal('modal-blackPanther')">&times;</span>
+                    <h2>Black Panther</h2><br>
+                    <p>Evrenin kaderi, Thanos’un sonsuzluk taşlarını ele geçirmesiyle tehlikeye girer. Tüm kahramanlar insanlığı kurtarmak için birleşir, ancak trajik bir sonla karşılaşırlar. Yoğun aksiyon, duygusal anlar ve unutulmaz karakterlerle Infinity War, Marvel evreninin en güçlü yapımlarından biridir.</p><br>
+                    <p><i class="fa-solid fa-film"></i> 134dk | Aksiyon</p><br>
+                    <p id="imdb-blackPanther"></p><br>
+                    <p><i class="fa-solid fa-video"></i> Platform: Disney+</p>
+                    </div>
+                    <div class="modal-img">
+                    <img src="img/p_blackpanther_19754_4ac13f07.jpeg">
+                    </div>
+                </div>
+            </div>
+
+       
+
+            <!-- footer -->
+            <div class="footer">
+                <ul class = "footer-link">
+                    <li><a href="index.html">Ana sayfa</a></li>
+                    <li><a href="diziler.html">Diziler</a></li>
+                    <li><a href="filmler.html">Filmler </a></li>
+                </ul>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+               
+                <p>© 2025 Marvel Fan Sitesi. Tüm hakları saklıdır. <br>Designed by Duygu </p>
+            </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -18,20 +18,8 @@ DMarvel, **HTML, CSS ve JavaScript** kullanılarak geliştirilmiş, modern ve re
 * API
 
 ## 📷 Ekran Görüntüsü
-![DMarvel](./img/)
+![DMarvel](./img/DMarvel-screenshot.png)
 
-
-## 📂 Kurulum
-
-```bash
-git clone https://github.com/Duygugr/DMarvel.git
-```
-
-Ardından `index.html` dosyasını tarayıcınızda açabilirsiniz.
-
-## 📌 Not
-
-Bu projede film bilgileri ve IMDb puanları **OMDb API** üzerinden dinamik olarak alınmaktadır.
 
 ## ⚠️ Sorumluluk Reddi
 

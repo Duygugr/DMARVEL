@@ -20,6 +20,8 @@ DMarvel, **HTML, CSS ve JavaScript** kullanılarak geliştirilmiş, modern ve re
 ## 📷 Ekran Görüntüsü
 ![DMarvel](./img/DMarvel-screenshot.png)
 
+## Demo
+https://duygugr.github.io/DMARVEL/
 
 ## ⚠️ Sorumluluk Reddi
 

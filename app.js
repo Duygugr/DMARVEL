@@ -5,7 +5,7 @@ function openModal(id,title) {
   document.getElementById(id).style.display = 'flex';
 
 
-fetch(`http://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(title)}`)
+fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(title)}`)
 .then (res => res.json())
 .then (data => {
   console.log(data);
